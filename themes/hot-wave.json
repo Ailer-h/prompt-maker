@@ -1,0 +1,11 @@
+{
+  "name": "Hot Wave",
+  "dark": true,
+  "primary": "#CF5C36",
+  "secondary": "#FD6F3F",
+  "accent": "#C42021",
+  "foreground": "#FFFFFA",
+  "warning": "#ffa62b",
+  "error": "#ba3c5b",
+  "success": "#4EBF71"
+}

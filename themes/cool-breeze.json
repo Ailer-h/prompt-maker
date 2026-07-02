@@ -1,0 +1,11 @@
+{
+  "name": "Cool Breeze",
+  "dark": true,
+  "primary": "#70D6FF",
+  "secondary": "#62B5D5",
+  "accent": "#6369D1",
+  "foreground": "#E0D8DE",
+  "warning": "#ffa62b",
+  "error": "#ba3c5b",
+  "success": "#4EBF71"
+}

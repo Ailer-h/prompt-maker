@@ -1,0 +1,77 @@
+Screen {
+    layout: vertical;
+}
+
+#template-list {
+    width: 100%;
+    height: auto;
+    max-height: 60%;
+}
+
+#log {
+    height: 1fr;
+}
+
+#command {
+    dock: bottom;
+    margin: 0 1;
+}
+
+OutputFormatScreen {
+    align: center middle;
+}
+
+OutputFormatScreen SelectMenu {
+    min-width: 30;
+}
+
+ThemeScreen {
+    align: center middle;
+}
+
+ThemeScreen SelectMenu {
+    min-width: 30;
+}
+
+#fill-body {
+    height: 1fr;
+}
+
+#fill-body FileViewer {
+    width: 1fr;
+}
+
+#fill-body TemplateForm {
+    width: 1fr;
+}
+
+TemplateEditorScreen TextArea, ThemeEditorScreen TextArea {
+    height: 1fr;
+}
+
+#theme-editor-body {
+    height: 1fr;
+}
+
+#theme-editor-json {
+    width: 2fr;
+    height: 1fr;
+}
+
+#theme-preview {
+    width: 1fr;
+    border: round $accent;
+}
+
+#organize-body, #themes-organize-body {
+    height: 1fr;
+}
+
+#organize-body SelectMenu, #themes-organize-body SelectMenu {
+    width: 1fr;
+    height: 1fr;
+}
+
+#organize-body FileViewer, #themes-organize-body FileViewer {
+    width: 1fr;
+}

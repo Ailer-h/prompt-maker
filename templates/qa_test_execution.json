@@ -1,0 +1,89 @@
+{
+  "name": "QA Test Execution",
+  "description": "Runs an existing list of QA tests against the system and generates a report",
+  "template": "{{persona}}\n\nYou have received the project {{project_name}}. {{context}}\n\nReference material:\n- Flow: {{fluxo_path}}\n- Dossier: {{dossie_path}}\n- System: {{system_link}}\n- Test list: {{test_list_path}}\n\nTest environment: {{ambient}}\n\nFollow these steps:\n{{steps}}",
+  "variables": [
+    {
+      "name": "persona",
+      "label": "Tester persona",
+      "multiline": false,
+      "default": "You are a QA tester with 10+ years of experience in the field, mainly with testing AI chatbots."
+    },
+    {
+      "name": "project_name",
+      "label": "Project name",
+      "multiline": false,
+      "default": ""
+    },
+    {
+      "name": "context",
+      "label": "Project context (what it does)",
+      "multiline": true,
+      "default": ""
+    },
+    {
+      "name": "fluxo_path",
+      "label": "Path to the flow file",
+      "multiline": false,
+      "default": "",
+      "file_search": true
+    },
+    {
+      "name": "dossie_path",
+      "label": "Path to the dossier file",
+      "multiline": false,
+      "default": "",
+      "file_search": true
+    },
+    {
+      "name": "system_link",
+      "label": "Link to the system/chat to be tested",
+      "multiline": false,
+      "default": ""
+    },
+    {
+      "name": "test_list_path",
+      "label": "Path to the test list",
+      "multiline": false,
+      "default": "",
+      "file_search": true,
+      "search_stem": "tests"
+    },
+    {
+      "name": "ambient",
+      "label": "Test environment (browser, etc.)",
+      "multiline": false,
+      "default": "Google Chrome"
+    },
+    {
+      "name": "output_file",
+      "label": "Output file for the report",
+      "multiline": false,
+      "default": "report.md"
+    }
+  ],
+  "steps": [
+    {
+      "stepName": "getting-context",
+      "state": "to-do",
+      "stepInfo": {
+        "description": "Read the dossier and the flow to understand how the project works."
+      }
+    },
+    {
+      "stepName": "testing",
+      "state": "to-do",
+      "stepInfo": {
+        "description": "Run the tests listed in the file."
+      }
+    },
+    {
+      "stepName": "reporting",
+      "state": "to-do",
+      "stepInfo": {
+        "description": "Write a report on the test results.",
+        "output_file": "{{output_file}}"
+      }
+    }
+  ]
+}
