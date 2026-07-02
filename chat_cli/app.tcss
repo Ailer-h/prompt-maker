@@ -1,0 +1,30 @@
+Screen {
+    layout: vertical;
+}
+
+#body {
+    height: 1fr;
+}
+
+ChatWindow {
+    width: 2fr;
+    height: 100%;
+}
+
+FileViewer {
+    width: 1fr;
+    height: 100%;
+}
+
+#prompt {
+    dock: bottom;
+    margin: 0 1;
+}
+
+MenuScreen {
+    align: center middle;
+}
+
+MenuScreen SelectMenu {
+    min-width: 40;
+}
