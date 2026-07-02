@@ -34,7 +34,7 @@ python app.py
 
 | Flag | Description |
 | --- | --- |
-| `--templates PATH` | Use a directory of `.json` templates instead of the bundled `templates/` folder. |
+| `--templates PATH` | Use a directory of `.json` templates instead of the default `templates/` folder. |
 | `--output-dir PATH` | Directory new prompt files are written to (defaults to the current working directory). |
 
 ### Controls
