@@ -1,2 +1,8 @@
 /__pycache__
 /*/__pycache__
+
+# Ignores further updates on these folders
+/themes/
+/templates/
+
+config.json
