@@ -2,6 +2,6 @@
 /*/__pycache__
 
 # Ignores further updates on these folders
-# /templates/
+/templates
 
 config.json
